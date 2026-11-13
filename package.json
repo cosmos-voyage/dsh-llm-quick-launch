@@ -1,0 +1,49 @@
+{
+  "name": "@cosmos-voyage/llm-quick-launch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A DSH sidebar panel with one-click links to major AI chat services.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./logos/*": "./logos/*"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "logos/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "cordis",
+    "plugin",
+    "bundle",
+    "ai",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "deepseek",
+    "kimi",
+    "doubao"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

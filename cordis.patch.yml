@@ -1,0 +1,3 @@
+- insert:
+    - id: llm-quick-launch
+      name: '@cosmos-voyage/llm-quick-launch'

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AI quick launch",
+    "description": "Adds a sidebar panel with one-click links to major AI chat services. Brand marks are loaded from cdn.simpleicons.org and a.favicon.im in the browser; pick your own icon in Manage to keep the panel fully local."
+  }
+}
